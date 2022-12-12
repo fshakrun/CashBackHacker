@@ -42,7 +42,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void shouldCalculateTheAmountIf1000() {
+    public void shouldCalculateAmount1000() {
         int amount = 1000;
         int actual = service.remain(amount);
         int expected = 0;
